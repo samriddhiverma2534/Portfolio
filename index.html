@@ -58,8 +58,6 @@ content="https://portfolio-eta-five-bupi084trv.vercel.app/asset/og-image.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet"
-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 <style>
   :root{
     --sage:#7C8B6E;
@@ -536,8 +534,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
     *{animation:none !important;transition:none !important;}
     .reveal{opacity:1;transform:none;}
   }
-</style>
-/* ==========================
+  /* ==========================
    Theme Toggle
 ========================== */
 
@@ -613,6 +610,8 @@ body.dark .theme-switch{
     background:#171717;
 
 }
+</style>
+
 <link rel="icon" type="image/x-icon" href="asset/favicon.ico">
 <link rel="icon" type="image/png" sizes="32x32" href="asset/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="asset/favicon-16x16.png">
@@ -1190,8 +1189,6 @@ body.dark .theme-switch{
     });
 
   });
-
-</script>
 const themeToggle=document.getElementById("themeToggle");
 
 themeToggle.addEventListener("click",()=>{
@@ -1199,5 +1196,7 @@ themeToggle.addEventListener("click",()=>{
     document.body.classList.toggle("dark");
 
 });
+</script>
+
 </body>
 </html>
